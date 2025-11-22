@@ -95,7 +95,7 @@ $ docker run -d \
 # ... output omitted ...
 ```
 
-Notice a clever use of the tag `latest-v20.1` to make sure that you're pulling the latest patch version of 20.1. The diversity of available tags depend on the image maintainer. Here, your intent was to have the latest patched version of CockroachDB while not straying too far away from the known working version as the time goes by. To see the tags available for the CockroachDB image, you can go to the [CockroachDB page on Docker Hub](https://hub.docker.com/r/cockroachdb/cockroach/tags).
+Notice a clever use of the tag `latest-v24.5` to make sure that you're pulling the latest patch version of 20.1. The diversity of available tags depend on the image maintainer. Here, your intent was to have the latest patched version of CockroachDB while not straying too far away from the known working version as the time goes by. To see the tags available for the CockroachDB image, you can go to the [CockroachDB page on Docker Hub](https://hub.docker.com/r/cockroachdb/cockroach/tags).
 
 ### Configure the database engine
 
